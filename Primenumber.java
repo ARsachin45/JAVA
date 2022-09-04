@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Primenumber {
+    public static void main(String[] wsr) {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int n = 100;
+        for(int i=2;i<=Math.sqrt(a);++i) {
+            if (a%i != 0) {
+                System.out.println(" prime Number");
+            
+            }
+        
+        else {
+            System.out.println(" Not a Prime Number");
+            return;
+        }
+    }
+        
+    }
+}
